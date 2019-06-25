@@ -8,8 +8,8 @@ This is a simple docker with golang based http server. It is stupid simple, abso
 
 **Run it detached (-d)**
 
-    docker run -d --publish 5000:5000  mysimple.
-
+    docker run -d --publish 5000:5000  mysimple
+    
 **View it (-d)**
 
-    http://localhost:5000.
+    http://localhost:5000
