@@ -1,5 +1,5 @@
 # simpleGoDocker
-This is a simple docker with golang based http server
+This is a simple docker with golang based http server. It is stupid simple, absolutely useless but helps to get into docker with golang
 
 
 **Build it**
