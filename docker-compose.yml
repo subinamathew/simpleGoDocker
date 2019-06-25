@@ -1,0 +1,12 @@
+version: "3"
+services:
+  simple:
+    image: golang:1.8
+    volumes:
+      - .:/go/src/app
+    command: go run site.go
+    working_dir: /go/src/app
+    environment:
+      - PORT=80
+    ports:
+      - "8008:80"
